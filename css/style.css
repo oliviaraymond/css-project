@@ -1,41 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300|Raleway:300&display=swap');
 
 html {
-max-width:960px;
+font-size: 10px;
+max-width:96rem;
 margin:auto;
 }
 h1{
 text-align: center;
 color:#F7EDE2;
-font-size:72px;
+font-size:7.2rem;
 font-family:'Lato', sans-serif;
 font-weight:100;
 background-color:#F28482;
 width: auto;
-padding: 15px;
-margin: 20px;
+padding: 1.5rem;
+margin: 2.0rem;
 }
 h2 {
 background-color:#F6BD60;
-font-size: 40px;
+font-size: 4.0rem;
 text-align: left;
-padding-left: 30px;
+padding-left: 3.0rem;
 font-family: 'Lato', sans-serif;
 color:#F7EDE2;
 font-family: 'Lato', sans-serif;
 font-weight: 100;
-margin: 10px;
-margin-top: 0px;
-margin-bottom: 20px;
+margin: 1.0rem;
+margin-top: 0rem;
+margin-bottom: 2.0rem;
 }
 p,li, ul{
 font-family:'Raleway', sans-serif;
 font-weight:400;
-font-size:18px;
+font-size:1.8rem;
 color: #222;
 }
 li{
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 img{
 display: inline-flex;
@@ -44,65 +45,65 @@ display: inline-flex;
 }
 img + p {
 color: #84A59D;
-font-size: 12px;
+font-size: 1.2rem;
 }
 footer {
 background-color:#F5CAC3;
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 2.0rem;
+padding-bottom: 2.0rem;
 text-align: center;
-margin: 20px;
+margin: 2.0rem;
 }
 footer p {
   font-weight: bolder;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #84A59D;
 }
 article:first-child{
 grid-column: 1;
 grid-row: 1;
-padding: 40px;
-padding-bottom: 0px;
+padding: 4.0rem;
+padding-bottom: 0rem;
 background-color: #F7EDE2;
 }
 article:nth-child(2){
   grid-column: 2;
   grid-row: 1;
-  padding: 40px;
-  padding-bottom: 0px;
+  padding: 4.0rem;
+  padding-bottom: 0rem;
   background-color: #F7EDE2;
 }
 article:last-child{
   grid-column: 3;
   grid-row: 1;
-  padding: 40px;
-  padding-bottom: 0px;
+  padding: 4.0rem;
+  padding-bottom: 0rem;
   background-color: #F7EDE2;
 }
 
 section:first-child, section:nth-child(2) {
   display:grid;
-  width:850px;
+  width:85.0rem;
   margin:auto;
-  margin-bottom: 20px;
+  margin-bottom: 2.0rem;
 }
 section:last-child {
 background-color: #F7EDE2;
-width:850px;
+width:85.0rem;
 margin:auto;
-padding-top: 40px;
-padding-bottom: 20px;
+padding-top: 4.0rem;
+padding-bottom: 2.0rem;
 }
 section:last-child p, section:last-child a {
-  padding-left: 100px;
+  padding-left: 10.0rem;
 
 }
 section:last-child h2 {
-margin-right: 50px;
-margin-left: 50px;
+margin-right: 5.0rem;
+margin-left: 5.0rem;
 background-color: #84A59D;
 }
 
 ul {
-  padding-right: 100px;
+  padding-right: 10.0rem;
 }
