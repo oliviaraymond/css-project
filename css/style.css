@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300|Raleway:300&display=swap');
 
 html {
-font-size: 10px;
+font-size:10px;
 max-width:96rem;
 margin:auto;
 }
@@ -29,7 +29,7 @@ margin: 1.0rem;
 margin-top: 0rem;
 margin-bottom: 2.0rem;
 }
-p,li, ul{
+p,li, ul, a{
 font-family:'Raleway', sans-serif;
 font-weight:400;
 font-size:1.8rem;
