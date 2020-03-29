@@ -2,26 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width; initial-scale=1;" />
     <title>Pineapple Sherbet</title>
     <link href="css/style.css" rel="stylesheet"/>
   </head>
+
   <body>
+
     <header>
       <h1>Pineapple Sherbet</h1>
     </header>
     <main>
       <section>
         <article>
-          <img src="img/pineapple-on-beach.jpg" alt="beach"/>
+          <picture>
+            <source media="(max-width: 400px)" srcset="img/pineapple-on-beach-sm.jpg" />
+            <source media="(max-width: 768px)" srcset="img/pineapple-on-beach-md.jpg" />
+            <img src="img/pineapple-on-beach.jpg" alt="beach"/>
+          </picture>
           <p>Adam Sidaway on Unsplash</p>
         </article>
         <article>
-          <img src="img/lots-of-pineapple.jpg" alt="manypineapple"/>
+          <picture>
+            <source media="(max-width: 400px)" srcset="img/lots-of-pineapple-sm.jpg" />
+            <source media="(max-width: 768px)" srcset="img/lots-of-pineapple-md.jpg" />
+            <img src="img/lots-of-pineapple.jpg" alt="manypineapple"/>
+          </picture>
           <p>Brooke Lark on Unsplash</p>
         </article>
         <article>
-          <img src="img/pineapple-on-beach2.jpg" alt="ocean"/>
-          <p>Pinapple Supply Co. on Unsplash</p>
+          <picture>
+            <source media="(max-width: 400px)" srcset="img/pineapple-on-beach2-sm.jpg" />
+            <source media="(max-width: 768px)" srcset="img/pineapple-on-beach2-md.jpg" />
+            <img src="img/pineapple-on-beach2.jpg" alt="ocean"/>
+          </picture>
+          <p>Pineapple Supply Co. on Unsplash</p>
         </article>
       </section>
       <section>
@@ -60,5 +75,6 @@
     <footer>
       <p>Coded in HTML5 by Olivia Raymond for Front End Fundamentals at the University of Miami with Erin Brown.</p>
     </footer>
+
   </body>
 </html>
